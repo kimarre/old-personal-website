@@ -3,7 +3,9 @@ body {
 	margin-left:+5%;
 	margin-right:+5%;
 	margin-top:+15px;
+	margin-bottom:100px;
 }
+
 
 .hero-unit {
 	background-image:url('../hero.jpg');
@@ -19,6 +21,21 @@ body {
 
 #mockfeat {
 	height:700px;
+}
+
+#resumePDF {
+	text-align:center;
+}
+
+.resumeTitle {
+	font-weight:bold;
+	font-size:18px;
+}
+
+small {
+	color:#828282;
+	font-style:italic;
+	font-weight:normal;
 }
 
 .thumbnail {
