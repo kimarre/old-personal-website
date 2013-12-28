@@ -1,0 +1,206 @@
+#aboutMe {
+	color:#ADADAD;
+	font-size:16.5px;
+	font-style:bold;
+	margin-left:50px;/*135*/
+	font-family:'Roboto';
+}
+
+body {
+	color:#B5B5B5;
+	background-image:url('roseFractal.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-style:bold;
+	/*font-family:'Alike';*/
+	font-size:21px;
+	/*margin:125px;*/
+	/*margin-left:100px;*/
+	/*margin-right:-35px;*/
+	margin-top:15px;
+	margin-bottom:50px;
+} /*Satisfy, Alike*/
+
+div div {
+	margin-top:35px;
+	margin-left:35px;
+}
+
+div.img {
+	margin:15px; /*25*/
+	margin-bottom:5px;/*5*/
+	height:auto;
+	width:auto;
+	float:left;
+	padding:10px; /*10*/
+}
+
+div.img img {
+	display:inline;
+	border:5px solid #505050;
+}
+
+div.desc {
+	text-align:center;
+	margin-top:-5px;
+}
+
+hr {
+	margin-right:45px;
+}
+
+h1 {
+	text-align:center;
+	font-size:32px;
+	margin-top:-20px;
+	font-family:'Alike';
+	color:#99CCFF;
+}
+
+h2 { 
+	text-align:left;
+	font-size:28px;
+	margin-top:-20px;
+	font-family:'Alike';
+	color:white;
+}
+
+h3 { /*Sub-headings*/
+	text-align:left;
+	font-size:20px;
+	margin-left:+35px;
+	font-family:'Alike';
+	color:#B5B3B4;
+}
+
+h4 {
+	text-align:left;
+	font-size:16px;
+	margin-left:30px;
+	font-family:'Alike';
+	color:#B5B3B4;
+}
+
+li {
+	display:inline;
+}
+
+#mainbody {
+	margin-top:25px;
+}
+
+#nails-content {
+	height:1610px;
+	margin-left:25px;
+}
+
+nav {
+	margin-top:30px;
+	margin-left:75px;
+}
+
+.navbutton {
+	display:inline-block;
+	position:relative;
+	height:45px;
+	width:150px;
+	text-align:center;
+	background:#474747;
+	border: 2px solid #757575;
+	border-radius:5px;
+	margin-top:0px;
+}
+
+.navbutton:hover {
+	background:#575757;
+	color:white;
+}
+
+.navbutton p {
+	color:#99CCFF; /*light pink: #FFB8D0;*/
+	margin-top:7px;
+	font-size:25px;
+	text-align:center;
+	margin-left:0px;
+}
+
+.navbutton:hover{
+	cursor:pointer;
+}
+
+p {
+	color:#B5B3B4;
+	font-size:16.5px;
+	font-style:bold;
+	margin-left:35px;/*135*/
+	/*margin-right:135px;*/
+	font-family:'Alike';
+}
+
+#resumebutton {
+	margin-top:15px;
+	display:block;
+	height:45px;
+	width:200px;
+	background:#474747;
+	border-radius:7px;
+	color:white;
+	text-decoration:none;
+
+}
+
+#resumebutton p {
+	vertical-align:middle;
+	line-height:45px;
+	position:relative;
+	margin-left:-6px;
+	color:white;
+	font-size:26px;
+	text-align:center;
+	text-decoration:none;
+
+}
+
+table {
+	color:#B5B3B4;
+	font-size:16.5px;
+	font-style:bold;
+	margin-left:120px;/*135*/
+	/*margin-right:135px;*/
+	font-family:'Alike';
+}
+
+th {
+	font-style:bold;
+	margin-left:-75px;
+}
+
+td {
+	/*margin-left:20px;*/
+	padding-right:10px;
+}
+
+#travis-content {
+	height:400px;
+}
+
+.transparent{
+	background:rgba(0,0,0,0.85);
+	border-radius:10px;
+	border-style:solid;
+	border-width:4px;
+	border-color:#474747;
+	margin-top:-40px;
+	margin-left:7%;
+	margin-right:7%;
+}
+
+ul {
+	list-style-type:none;
+}
+
+
+/*   blue: #99CCFF>
+   purple: #B4B4FF> */
+

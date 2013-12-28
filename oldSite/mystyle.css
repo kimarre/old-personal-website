@@ -1,0 +1,140 @@
+
+body {
+	color:#FFFFFF; /*#99CCFF*/
+	background-image:url('gradient.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-style:bold;
+	/*font-family:'Alike';*/
+	font-size:21px;
+	margin:125px;
+	/*margin-left:100px;*/
+	/*margin-right:-35px;*/
+	margin-top:35px;
+	margin-bottom:100px;
+} /*Satisfy, Alike*/
+
+p {
+	color:#FFFFFF;
+	font-size:16.5px;
+	font-style:bold;
+	margin-left:50px;/*135*/
+	/*margin-right:135px;*/
+	font-family:'Alike';
+}
+
+#aboutMe {
+	color:#ADADAD;
+	font-size:16.5px;
+	font-style:bold;
+	margin-left:50px;/*135*/
+	font-family:'Roboto';
+}
+
+.trans-background {
+	position:absolute;
+	width:900px;
+	height:650px;
+	border-radius:5px;
+	/*background-image:url('Semi-Transparent-Black.png');*/
+	color:#000000;
+
+}
+
+.transparent{
+	background:rgba(0,0,0,0.7);
+	border-radius:10px;
+}
+
+#mainbody {
+	
+	
+}
+
+div { /*purple
+	height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #4d2177;*/
+    color:#ffffff;
+}
+
+#blue {
+	height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #007fff;
+}
+
+form {
+	color:#ADADAD;
+	font-size:16.5px;
+	font-style:bold;
+	margin-left:50px;/*135*/
+	/*margin-right:135px;*/
+	font-family:'Alike';
+}
+
+li {
+	display:inline;
+}
+
+.navbutton {
+	height:20px;
+	width:65px;
+	background-color:#99CCFF;
+	color:666666;
+}
+
+h1 {
+	text-align:center;
+	font-size:32px;
+	margin-top:-20px;
+	font-family:'Alike';
+	color:#99CCFF;
+}
+
+h2 { 
+	text-align:left;
+	font-size:28px;
+	margin-top:-20px;
+	font-family:'Alike';
+	color:#666666;
+}
+
+h3 { /*Sub-headings*/
+	text-align:left;
+	font-size:20px;
+	margin-left:50px;
+	font-family:'Alike';
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+
+div.img {
+	margin:30px; /*25*/
+	margin-bottom:5px;/*5*/
+	height:auto;
+	width:auto;
+	float:left;
+	padding:10px; /*10*/
+}
+
+div.img img {
+	display:inline;
+	border:5px solid #505050;
+}
+
+div.desc {
+	text-align:center;
+
+}
+
+/*   blue: #99CCFF>
+   purple: #B4B4FF> */
+

@@ -6,12 +6,31 @@ body {
 	margin-bottom:100px;
 }
 
+#blogHeader {
+	margin-bottom:40px;
+}
+
+#blogHeaderContent {
+	font-size:16px;
+}
+
+.blogDate {
+	margin-top:-17px;
+	margin-bottom:20px;
+}
+
 
 .hero-unit {
 	background-image:url('../hero.jpg');
 	background-color:#DDDDDD;
 	background-attachment:fixed;
 	margin-top:-20px;
+}
+
+hr {
+	border: 0;
+  	border-top: 1px solid #eeeeee;
+  	border-bottom: 1px solid #ffffff;
 }
 
 .navbar {
@@ -41,3 +60,4 @@ small {
 .thumbnail {
 	text-align:center;
 }
+
