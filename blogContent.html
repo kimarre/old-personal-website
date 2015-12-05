@@ -1,0 +1,123 @@
+<!-- Use wells for post content? -->
+
+<!DOCTYPE html>
+
+<html>
+ <head>
+     <meta charset="utf-8">
+     <title>Le Blog - Kim Arre</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ </head>
+
+ <body>
+     
+     <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+               <a class="brand" href="index.html">Kim Arre</a>
+               <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutMe.html">About Me</a></li>
+                    <li class="active"><a href="blogContent.html">Blog</a></li>
+                    <li><a href="nails.html">Nail Art</a><li>
+                    <li><a href="http://kimrawr.github.io/Reddit-App/">Reddit App</a><li>
+                    <li><a href="resume.html">Resume</a><li>
+               </ul>
+          </div>
+     </div>
+
+     <div class="container-fluid">
+	     <div id="blogHeader" class="container-fluid">
+	     	<h2>Le Nameless Blog (for now)</h2>
+	     	<p id="blogHeaderContent">Hooray for blogs! I've been having a really hard time deciding on a name for it though. Suggestions are welcome. In the meantime, enjoy whatever posts are here for now.
+
+	     	<br><br>
+
+	     	Click on the tabs on the left side to see different posts. Enjoy!</p>	
+	     </div>
+	</div>
+	    
+
+	     <!--start tab content-->
+		<div class="container-fluid">
+			<div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Kittens Are Overrated.</a></li>
+					<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+					<li><a href="#tab3" data-toggle="tab">Moar Sections</a></li>
+				</ul>
+
+
+				<div class="tab-content">
+					<div class="tab-pane fade active in well well-large" id="tab1">
+						<h3>Kittens Are Overrated.</h3>
+							<p class="blogDate">December 26, 2013</p>
+
+							<div class="row-fluid">
+              					
+								<div class="span4 img-responsive">
+									<img src="blogPics/noShame.jpg" style="max-height:400px">
+									<h5>Moose had a little too much last Thanksgiving.</h5>
+								</div>
+
+              					<div class="span8">
+              					<p>Kittens are always the first to be adopted from shelters and are super abundant on r/aww. It’s easy to list the reasons why someone would want a kitten. They’re tiny and cuddly, have squeaky little meows, tiny paws, and you get to watch them grow up into ferocious mini-beasts.</p>
+
+								<p>I’ve had my kitten, Moose, for about 6 months now. I brought him home from the county shelter in Bakersfield when he was only 8 weeks old. Although I would never trade my Moosey-Moose for anything, I have learned a few things that have made me believe that adopting a full grown cat probably would have been a better choice for me.</p>
+
+								<p>Don’t get me wrong, I know that after 8 months of owning my kitten, I’m probably desensitized to the adorable kitten stuff and am taking it for granted. Though, often times I feel that he grows up going through many of the same phases that human children go through. </p>
+
+								<p>He’s currently in his teenage angst stage. As far as I know, as his mom, I get the most attitude backlash after scolding him for doing things he shouldn’t be doing. Mostly in the form of feisty arm and ankle biting. Although that somehow still manages to sound rather cute, I can assure you, the abundant scars on my body would respectfully disagree. </p>
+
+								<p>It begins with a scolding, progresses to his little eyes dilating as if he were on kitty LSD, and ends with a viciously playful strike to my leg. One that I don’t consider to be all that playful.</p>
+
+								<p>I know he doesn’t mean any actual harm, but I have to say, I’m pretty excited for him to grow up and mellow out a little bit. He is a good companion when he’s calm and makes for a good personal heater during winter naps, but I look forward to a day where I’m not afraid of the tiny knives attached to his paws.</p>
+								</div>
+
+							</div>
+              
+							<hr>
+							<br>
+
+							<p><b>Extra: Facebook Post from November 25, 2013:</b></p>
+							<p>Adventures with Moose - Day 152:
+							<br>
+							Moose's collar had been missing for at least a week. While digging in the trash for an old receipt, I finally happened upon it at the bottom of the bin. I came to the conclusion that while away for class, he executed his plot to rid himself of the evil neck trap and *threw away* his collar, hoping I wouldn't find out. Not amused, but relieved I found it, I put it back on him and went to sleep. 
+
+							<p>A few hours later I woke up in the middle of the night to Moose's paws on my neck. Either he wanted attention, or he was mad at me for restricting his neck again and decided to restrict mine. I'm pretty sure the latter.</p>
+
+							<p>Also, his collar is missing again.</p>
+					</div>
+
+
+					<div class="tab-pane fade in well well-large" id="tab2">
+						<p>I'm section 2 and I'm sad because I have no content. I was created for testing purposes. No one loves me. :(</p>
+					</div>
+
+					<div class="tab-pane fade in well well-large" id="tab3">
+						<p> :( </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- end tab content -->
+	
+
+
+
+
+     <!-- JS included at the end for faster page load times -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script>
+		$('#tab2 a').click(function (e) {
+  		e.preventDefault();
+  		$(this).tab('show');
+		})
+	</script>
+ </body>
+</html>
+
+

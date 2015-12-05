@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <title>Bootstrop Shenanigans</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="bootstrap-responsive.css">
+     <link rel="stylesheet" href="customized.css">
+     
+ </head>
+
+ <body>
+     <div class='carousel slide'>
+          <div id="myCarousel" class="carousel-inner">
+          	<!--first carousel slide-->
+               <div class="item active">
+                    <img src="slide-01.jpg" alt="">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1>This is my first headline!</h1>
+                              <p class="lead">Some other smaller stuff goes here I think. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p> 
+                              <a class="btn btn-large btn-primary" href-"#">Yay buttons!</a>
+                         </div>
+          		</div>
+               </div>
+
+               <!--second carousel slide-->
+               <div class="item">
+                    <img src="slide-02.jpg" alt="">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1>This is my second headline!</h1>
+                              <p class="lead">Some other smaller stuff goes here I think. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p> 
+                              <a class="btn btn-large btn-primary" href-"#">Yay more buttons!</a>
+                         </div>
+                    </div>
+               </div>
+
+               <!--third carousel slide-->
+               <div class="item">
+                    <img src="slide-03.jpg" alt="">
+                    <div class="container">
+                         <div class="carousel-caption">
+                              <h1>This is my second headline!</h1>
+                              <p class="lead">Some other smaller stuff goes here I think. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p> 
+                              <a class="btn btn-large btn-primary" href-"#">Yay more buttons!</a>
+                         </div>
+                    </div>
+               </div>
+          		<!--this one might not be needed-->
+               <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+               <a class="right carousel-control" href"#myCarousel" data-slide="next">&rsaquo;</a>
+          </div>
+
+     	<!--
+          <div class='row'>
+     		<div class="span4">
+     			<h2> Box Number 1</h2>
+     			<p> Random text here. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+     			<p><a class="btn" href="#"> Click meeee! </a></p>
+     		</div>
+
+     		<div class="span4">
+     			<h2> Box Number 2</h2>
+     			<p> Random text here. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+     			<p><a class="btn" href="#"> Click meeee! </a></p>
+     		</div>
+
+               <div class="span4">
+                    <h2> Box Number 2</h2>
+                    <p> Random text here. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                    <p><a class="btn" href="#"> Click meeee! </a></p>
+               </div>
+
+     	</div>-->
+
+
+     </div>
+
+     <!-- JS included at the end for faster page load times -->
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/bootstrap-carousel"></script>
+     <script src="bootstrap-transition"></script>
+     <script src="bootstrap-modal"></script>
+     
+     <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+ </body>
+</html>

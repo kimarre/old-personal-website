@@ -1,26 +1,75 @@
 
+.aboutMeImage {
+	/*width:500px;  /*250*/
+	/*position:relative;*/
+	padding:15px;
+}
+
 body {
-	margin-left:+5%;
+	/*margin-left:+5%;
 	margin-right:+5%;
 	margin-top:+15px;
-	margin-bottom:100px;
+	margin-bottom:100px;*/
+}
+
+#blogHeader {
+	margin-bottom:40px;
+}
+
+#blogHeaderContent {
+	font-size:19px;
+}
+
+.blogDate {
+	margin-top:-17px;
+	margin-bottom:20px;
 }
 
 
 .hero-unit {
 	background-image:url('../hero.jpg');
+
 	background-color:#DDDDDD;
 	background-attachment:fixed;
-	margin-top:-20px;
+	/*margin-top:-20px;*/
 }
 
-.navbar {
-	margin-left:+2%;
-	margin-right:+2%;
+h4 {
+	font-weight:normal;
+	font-size:21px;
+	/*line-height:120%;*/
+}
+
+hr {
+	border: 0;
+  	border-top: 1px solid #eeeeee;
+  	border-bottom: 1px solid #ffffff;
+}
+
+.jumbotron {
+	margin-top:-20px;
+	background-image:url('../hero.jpg');
+	height:300px;
+}
+
+#jumboContent {
+	margin-top:50px;
 }
 
 #mockfeat {
 	height:700px;
+}
+
+.navbar-inner {
+	/*margin-left:+2%;
+	margin-right:+2%;*/
+	border-radius:0px;
+}
+
+p {
+	font-size:17px;
+	font-weight: 200;
+	line-height:140%;
 }
 
 #resumePDF {
@@ -38,6 +87,11 @@ small {
 	font-weight:normal;
 }
 
+.span8 p {
+	font-weight:250;
+}
+
 .thumbnail {
 	text-align:center;
 }
+
